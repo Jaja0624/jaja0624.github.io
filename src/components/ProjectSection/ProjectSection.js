@@ -18,16 +18,12 @@ export default class ProjectSection extends Component {
         return (
             <Container>
                 <Row>
-                    <Col>
-                        <ProjectBlock projectInfo={this.projects[0]}/>
-                        <ProjectBlock projectInfo={this.projects[1]}/>
-                    </Col>
+                    <Col><ProjectBlock projectInfo={this.projects[0]}/></Col>
+                    <Col><ProjectBlock projectInfo={this.projects[1]}/></Col>
                 </Row>
                 <Row>
-                    <Col>
-                        <ProjectBlock projectInfo={this.projects[2]}/>
-                        <ProjectBlock projectInfo={this.projects[0]}/>
-                    </Col>
+                    <Col><ProjectBlock projectInfo={this.projects[2]}/></Col>
+                    <Col><ProjectBlock projectInfo={this.projects[0]}/></Col>
                 </Row>
             </Container>
         )

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import ProjectSection from './components/ProjectSection/ProjectSection';
+import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
 
 
