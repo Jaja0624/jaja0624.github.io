@@ -2,7 +2,25 @@
 .about-image {
     height: 180px;
     width: 180px;
+    background-image: url(../../../public/images/tenor.gif);
+    background-size: cover;
+    background-position: center center;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
+
+.about-image:hover {
+    height: 180px;
+    width: 180px;
+    background-image: url(../../../public/images/giphy.gif);
+    background-size: cover;
+    background-position: center center;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
 .about-info {
     margin-top: 50px;
 }
