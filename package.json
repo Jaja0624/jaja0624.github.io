@@ -1,5 +1,5 @@
 {
-  "homepage": "http://jaja0624.github.io/portfo",
+  "homepage": "http://jaja0624.github.io/portfo/",
   "name": "portfo",
   "version": "0.1.0",
   "private": true,
@@ -35,6 +35,7 @@
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.10.0",
     "fs-extra": "0.30.0",
+    "gh-pages": "^2.1.1",
     "html-webpack-plugin": "2.24.0",
     "http-proxy-middleware": "0.17.3",
     "jest": "18.1.0",
