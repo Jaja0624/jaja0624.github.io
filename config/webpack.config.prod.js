@@ -179,7 +179,7 @@ module.exports = {
         ]
       }),
     ];
-  }
+  },
 
   plugins: [
     // Makes some environment variables available in index.html.
