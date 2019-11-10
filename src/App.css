@@ -41,4 +41,5 @@
 .links {
   position: absolute;
   bottom: 0;
+  padding-bottom: 15px;
 }
