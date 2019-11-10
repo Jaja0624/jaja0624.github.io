@@ -44,7 +44,7 @@ class App extends Component {
 			<div className="App">
 				<Container fluid={true} className="god-container">
 					<Row className="god-row">
-						<Col className="sidebar">
+						<Col xs="3"className="sidebar">
 							<Sidebar/>
 						</Col>
 						<Col className="not-sidebar">
