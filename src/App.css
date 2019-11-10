@@ -1,17 +1,27 @@
 .App {
   text-align: left;
+  height: 100%;
 }
 
 .sidebar {
   height: 100%;
-  width: 300px;
+  width: 35%;
   align-self:stretch;
   background-color: black;
   color: white;
-
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.not-sidebar {
+  height: 100%;
+  width: 75%;
+  align-self:stretch;
+  background-color: rgb(11, 186, 255);
+}
+
+.god-container {
+  height: 100%;
+}
+
+.god-row {
+  height: 100%;
 }

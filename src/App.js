@@ -42,17 +42,13 @@ class App extends Component {
 	
 		return (
 			<div className="App">
-				<Container fluid={true}>
-					<Row>
-						<Col>
-							<div className="sidebar">
-								<Sidebar/>
-							</div>
+				<Container fluid={true} className="god-container">
+					<Row className="god-row">
+						<Col className="sidebar">
+							<Sidebar/>
 						</Col>
-						<Col>
-							<div className="not-sidebar">
-								<ProjectSection projects={projects}/>
-							</div>
+						<Col className="not-sidebar">
+							<ProjectSection projects={projects}/>
 						</Col>
 					</Row>
 				</Container>
