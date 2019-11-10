@@ -50,8 +50,8 @@ class App extends Component {
 	
 		return (
 			<div className="App">
-				<Container fluid={true} className="god-container">
-					<Row className="god-row">
+				<Container fluid={true} className="god-container" style={{paddingLeft: 0, paddingRight: 0}}>
+					<Row className="god-row" style={{marginRight: 0, marginLeft: 0}}>
 						<Col xs="3" className="sidebar" style={{paddingLeft: 0, paddingRight: 0}}> 
 							<About></About>
 							<Links></Links>

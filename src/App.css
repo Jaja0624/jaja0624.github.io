@@ -30,6 +30,9 @@
   width: 100%;
 }
 
+.container-fluid {
+  padding-right: 0px;
+}
 .god-row {
   height: 100%;
   width:100%;
