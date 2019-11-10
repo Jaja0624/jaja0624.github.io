@@ -26,14 +26,20 @@ class App extends Component {
 				link:""
 			},
 			{
-				title:"title-project3",
-				description:"description-this is project 3",
+				title:"title-project4",
+				description:"description-this is project 4",
 				timestamp:"timestamp-2017-2018",
 				link:""
 			},
 			{
-				title:"title-project3",
-				description:"description-this is project 3",
+				title:"title-project5",
+				description:"description-this is project 5",
+				timestamp:"timestamp-2017-2018",
+				link:""
+			},
+			{
+				title:"title-project6",
+				description:"description-this is project 6",
 				timestamp:"timestamp-2017-2018",
 				link:""
 			},
@@ -44,7 +50,7 @@ class App extends Component {
 			<div className="App">
 				<Container fluid={true} className="god-container">
 					<Row className="god-row">
-						<Col xs="3"className="sidebar">
+						<Col xs="3" className="sidebar">
 							<Sidebar/>
 						</Col>
 						<Col className="not-sidebar">

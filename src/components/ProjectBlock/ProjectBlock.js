@@ -14,18 +14,17 @@ export default class ProjectBlock extends Component {
                     <a href={this.project.link} target="_blank">
                         <div className="image"
                             style={{
-                                width:450,
-                                height:350,
+                                width:250,
+                                height:200,
                                 backgroundImage: `url(${tenor})`
                                 }}>
                         </div>
                     </a>
                 </div>
-                
                 <div className="project-info">
-                    <h1>{this.project.title}</h1>
-                    <h3>{this.project.description}</h3>
-                    <h5>{this.project.timestamp}</h5>
+                    <h4>{this.project.title}</h4>
+                    <h6>{this.project.description}</h6>
+                    <h6>{this.project.timestamp}</h6>
                 </div>
             </div>
         )

@@ -15,12 +15,17 @@ export default class ProjectSection extends Component {
 
     render () {
         return (
-            <Container fluid={true}>
+            <Container fluid={true} className="container-project">
                 <h2 className="bold">Projects</h2>
-                    <Row>
-                        {this.projects.map((proj) => {
-                            return <Col xs="4"><ProjectBlock projectInfo={proj}></ProjectBlock></Col>
-                        })}
+                    <Row className="project-row">
+                        <Col><ProjectBlock projectInfo={this.projects[0]}></ProjectBlock></Col>
+                        <Col><ProjectBlock projectInfo={this.projects[1]}></ProjectBlock></Col>
+                        <Col><ProjectBlock projectInfo={this.projects[2]}></ProjectBlock></Col>
+                    </Row>
+                    <Row className="project-row">
+                        <Col><ProjectBlock projectInfo={this.projects[3]}></ProjectBlock></Col>
+                        <Col><ProjectBlock projectInfo={this.projects[4]}></ProjectBlock></Col>
+                        <Col><ProjectBlock projectInfo={this.projects[5]}></ProjectBlock></Col>
                     </Row>
             </Container>
         )
