@@ -1,0 +1,16 @@
+.links{
+    padding-right: 1.5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.link-btn-group {
+    width: 100%;
+    border-width: 2px;
+    border-color: red;
+}
+
+.link-btn {
+    background-color: inherit !important;
+    color: rgb(218, 218, 218);
+}

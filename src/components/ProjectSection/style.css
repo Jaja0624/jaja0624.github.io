@@ -3,6 +3,11 @@
     height:100%;
 }
 
+.project-section-title {
+    padding-top:20px;
+    padding-bottom: 5px;
+}
+
 .project-row {
     height:400px;
     width: 100%;

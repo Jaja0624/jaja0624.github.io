@@ -1,5 +1,6 @@
 
 import React, { Component } from 'react'
+import About from '../About/About'
 // import './style.css'
 
 export default class Sidebar extends Component {
@@ -10,8 +11,7 @@ export default class Sidebar extends Component {
     render () {
         return (
             <div className="sidebar">
-                <h4>Jackson Situ</h4>
-                <h5>Aspiring software developer</h5>
+                <About></About>
             </div>
         )
     }

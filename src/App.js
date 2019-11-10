@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import './App.css';
 import ProjectSection from './components/ProjectSection/ProjectSection';
-import Sidebar from './components/Sidebar/Sidebar';
+// import Sidebar from './components/Sidebar/Sidebar';
+import About from './components/About/About';
+import Links from './components/Links/Links';
 import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
 	render() {
@@ -50,8 +52,9 @@ class App extends Component {
 			<div className="App">
 				<Container fluid={true} className="god-container">
 					<Row className="god-row">
-						<Col xs="3" className="sidebar">
-							<Sidebar/>
+						<Col xs="3" className="sidebar" style={{paddingLeft: 0, paddingRight: 0}}> 
+							<About></About>
+							<Links></Links>
 						</Col>
 						<Col className="not-sidebar">
 							<ProjectSection projects={projects}/>

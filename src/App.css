@@ -3,19 +3,24 @@
   height: 100%;
 }
 
+.about {
+  padding-top: 100px;
+}
+
 .sidebar {
   height: 100%;
   width: 35%;
   align-self:stretch;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
 }
+
 
 .not-sidebar {
   height: 100%;
   width: 75%;
   align-self:stretch;
-  background-color:white;
+  background-color:rgb(218, 218, 218);
 }
 
 .god-container {
@@ -28,4 +33,9 @@
 .god-row {
   height: 100%;
   width:100%;
+}
+
+.links {
+  position: absolute;
+  bottom: 0;
 }
