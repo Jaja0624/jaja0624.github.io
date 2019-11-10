@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import './style.scss'
+import './style.css'
 import tenor from './tenor.gif'
 export default class ProjectBlock extends Component {
     constructor(props) {
@@ -10,12 +10,12 @@ export default class ProjectBlock extends Component {
     render () {
         return (
             <div className="project-block">
-                <div>
+                <div className="image-info">
                     <a href={this.project.link} target="_blank">
                         <div className="image"
                             style={{
-                                width: 100,
-                                height: 330,
+                                width:450,
+                                height:350,
                                 backgroundImage: `url(${tenor})`
                                 }}>
                         </div>

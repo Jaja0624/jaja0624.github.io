@@ -1,10 +1,8 @@
 
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-// import Container from 'react-bootstrap/Container'
-// import Row from 'react-bootstrap/Row'
-// import Col from 'react-bootstrap/Col'
 import ProjectBlock from '../ProjectBlock/ProjectBlock'
+import './style.css'
 
 /**
  * Consists of the entire project section (all rows and cols)
@@ -14,17 +12,16 @@ export default class ProjectSection extends Component {
         super(props);
         this.projects = props.projects;
     }
+
     render () {
         return (
-            <Container>
-                <Row>
-                    <Col><ProjectBlock projectInfo={this.projects[0]}/></Col>
-                    <Col><ProjectBlock projectInfo={this.projects[1]}/></Col>
-                </Row>
-                <Row>
-                    <Col><ProjectBlock projectInfo={this.projects[2]}/></Col>
-                    <Col><ProjectBlock projectInfo={this.projects[0]}/></Col>
-                </Row>
+            <Container fluid={true}>
+                <h2 className="bold">Projects</h2>
+                    <Row>
+                        {this.projects.map((proj) => {
+                            return <Col xs="4"><ProjectBlock projectInfo={proj}></ProjectBlock></Col>
+                        })}
+                    </Row>
             </Container>
         )
     }
