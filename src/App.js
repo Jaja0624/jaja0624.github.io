@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import project1Image from '../public/images/project1.JPG';
 import project2Image from '../public/images/project2.JPG';
 import project3Image from '../public/images/project3.jpg';
-import project4Image from '../public/images/project4.jpg'; 
+import project4Image from '../public/images/project4.png'; 
 import project5Image from '../public/images/project5.JPG';
 import project6Image from '../public/images/project6.JPG';
 import tenor from '../public/images/tenor.gif';
