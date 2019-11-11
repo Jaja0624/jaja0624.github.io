@@ -6,44 +6,57 @@ import ProjectSection from './components/ProjectSection/ProjectSection';
 import About from './components/About/About';
 import Links from './components/Links/Links';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import project1Image from '../public/images/project1.JPG';
+import project2Image from '../public/images/project2.JPG';
+import project3Image from '../public/images/project3.jpg';
+import project4Image from '../public/images/project4.jpg'; 
+import project5Image from '../public/images/project5.JPG';
+import project6Image from '../public/images/project6.JPG';
+import tenor from '../public/images/tenor.gif';
 class App extends Component {
 	render() {
 		let projects = [
 			{
-				title:"title-project1",
-				description:"description-this is project 1",
-				timestamp:"timestamp-2017-2018",
-				link:""
+				title:"Cradle",
+				description:"A patient management service for a non-profit",
+				timestamp:"Sept 2019 - current",
+				link:"",
+				image:project1Image
 			},
 			{
-				title:"title-project2",
+				title:"RFD Tracker",
 				description:"description-this is project 2",
-				timestamp:"timestamp-2017-2018",
-				link:""
+				timestamp:"Jun 2018 - current",
+				link:"",
+				image:project2Image
 			},
 			{
-				title:"title-project3",
+				title:"Movie Data Analysis",
 				description:"description-this is project 3",
-				timestamp:"timestamp-2017-2018",
-				link:""
+				timestamp:"Jan 2019 - Apr 2019",
+				link:"",
+				image:project3Image
 			},
 			{
-				title:"title-project4",
-				description:"description-this is project 4",
-				timestamp:"timestamp-2017-2018",
-				link:""
+				title:"Learn with Sudoku",
+				description:"Android app - learn vocabulary using sudoku",
+				timestamp:"Jan 2019 - Apr 2019 ",
+				link:"",
+				image:project4Image
 			},
 			{
-				title:"title-project5",
-				description:"description-this is project 5",
-				timestamp:"timestamp-2017-2018",
-				link:""
+				title:"Dogs in Space",
+				description:"2D browser collector game",
+				timestamp:"Oct 2017 - Nov 2017",
+				link:"",
+				image:project5Image
 			},
 			{
-				title:"title-project6",
-				description:"description-this is project 6",
-				timestamp:"timestamp-2017-2018",
-				link:""
+				title:"Gladius",
+				description:"2D side scroll shooter",
+				timestamp:"Jun 2017 - Aug 2017",
+				link:"",
+				image:project6Image
 			},
 		];
 	

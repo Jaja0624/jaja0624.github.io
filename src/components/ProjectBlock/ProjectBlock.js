@@ -14,7 +14,8 @@ export default class ProjectBlock extends Component {
                     <a href={this.project.link} target="_blank">
                         <div className="image"
                             style={{
-                                backgroundImage: `url(${tenor})`
+                                // backgroundImage: `url(${tenor})`
+                                backgroundImage: `url(${this.project.image})`
                                 }}>
                         </div>
                     </a>
