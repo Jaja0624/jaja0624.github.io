@@ -1,6 +1,5 @@
 .links{
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .link-btn-group {
@@ -12,4 +11,15 @@
 .link-btn {
     background-color: inherit !important;
     color: rgb(218, 218, 218);
+}
+
+.bur {
+    margin-left: 8px;
+    margin-top: 15px;
+    font-size: 12px
+}
+
+.bur-link {
+    width: 1px;
+    height: 1px;
 }

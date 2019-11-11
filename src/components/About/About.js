@@ -17,7 +17,7 @@ export default class About extends Component {
         
                 <div className="about-info">
                     <h4>Jackson Situ</h4>
-                    <h6>Cat</h6>
+                    <h6>Nerd</h6>
                     <h6>SFU</h6>
                 </div>
             </div>
