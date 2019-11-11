@@ -20,7 +20,7 @@ export default class ProjectBlock extends Component {
                     </a>
                 </div>
                 <div className="project-info">
-                    <h4>{this.project.title}</h4>
+                    <h4 style={{paddingTop: 5}}>{this.project.title}</h4>
                     <h6>{this.project.description}</h6>
                     <h6>{this.project.timestamp}</h6>
                 </div>
