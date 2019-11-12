@@ -25,14 +25,14 @@ class App extends Component {
 			},
 			{
 				title:"RFD Tracker",
-				description:"description-this is project 2",
+				description:"Web app - redflagdeals buddy",
 				timestamp:"Jun 2018 - current",
 				link:"",
 				image:project2Image
 			},
 			{
 				title:"Movie Data Analysis",
-				description:"description-this is project 3",
+				description:"Analyzing movie data trends",
 				timestamp:"Jan 2019 - Apr 2019",
 				link:"",
 				image:project3Image
