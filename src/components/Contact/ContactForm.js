@@ -49,7 +49,7 @@ export default class ContactForm extends Component {
                 </div>
                 
                 {status === "SUCCESS" ? <p>Message Sent</p> : 
-                <Button className="link-btn" variant="dark" style={{borderRadius: 0}} onClick={this.submitForm}>
+                <Button className="link-btn" variant="dark" style={{borderRadius: 0}} type="submit">
                     <p className="link-text">Submit</p>
                 </Button>}
                 {status === "ERROR" && <p>There was an error.</p>}
