@@ -1,5 +1,14 @@
 .links{
+    padding-top: 15em;
     width: 100%;
+}
+
+.link-text {
+    margin-bottom: 0 !important;
+}
+
+.link-text:hover {
+    text-decoration: underline;
 }
 
 .link-btn-group {
@@ -13,6 +22,15 @@
     color: rgb(218, 218, 218);
 }
 
+.link-btn:hover {
+    border-color: aquamarine
+}
+
+.links-footer {
+    display:flex;
+    justify-content: space-between;
+}
+
 .bur {
     margin-left: 8px;
     margin-top: 15px;
@@ -22,4 +40,10 @@
 .bur-link {
     width: 1px;
     height: 1px;
+}
+
+.date {
+    margin-right: 8px;
+    margin-top: 15px;
+    font-size: 12px
 }

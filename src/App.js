@@ -2,61 +2,66 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
 import './App.css';
 import ProjectSection from './components/ProjectSection/ProjectSection';
-// import Sidebar from './components/Sidebar/Sidebar';
 import About from './components/About/About';
-import Links from './components/Links/Links';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import project1Image from '../public/images/project1.JPG';
-import project2Image from '../public/images/project2.JPG';
-import project3Image from '../public/images/project3.jpg';
-import project4Image from '../public/images/project4.png'; 
-import project5Image from '../public/images/project5-2.JPG';
-import project6Image from '../public/images/project6.JPG';
-import tenor from '../public/images/tenor.gif';
 class App extends Component {
 	render() {
 		let projects = [
 			{
+				title:"Herald - A Check In App",
+				description:"Cross platform mobile app - Let your people know you are ok",
+				timestamp:"Jul 2020 - current",
+				techstack:"React Native, Javascript, Firebase, GCP Cloud Functions",
+				link:"",
+				image: [require('../public/images/project7-1.jpg'), require('../public/images/project7-2.jpg'), require('../public/images/project7-3.jpg')]
+			},
+			{
 				title:"Cradle",
 				description:"A patient management service for a non-profit",
 				timestamp:"Sept 2019 - current",
+				techstack:"Java, Spring Boot, MySQL, Docker, Javascript, Vuejs, HTML, CSS",
 				link:"",
-				image:project1Image
+				image: [require('../public/images/project1-2.JPG'), require('../public/images/project1.JPG')],
 			},
 			{
 				title:"RFD Tracker",
 				description:"Web app - redflagdeals buddy",
-				timestamp:"Jun 2018 - current",
+				timestamp:"Jun 2017",
+				techstack:"Javascript, Nodejs/Express, MongoDB, JQuery, Bootstrap, HTML, CSS",
 				link:"",
-				image:project2Image
+				image: [require('../public/images/project2.JPG')]
 			},
 			{
 				title:"Movie Data Analysis",
-				description:"Analyzing movie data trends",
+				description:"Analyzing and predicting movie data trends",
 				timestamp:"Jan 2019 - Apr 2019",
+				techstack:"Python, pandas, numpy, scikit-learn, matplotlib",
 				link:"",
-				image:project3Image
+				image: [require('../public/images/project3.jpg')]
 			},
 			{
 				title:"Learn with Sudoku",
 				description:"Android app - learn vocabulary using sudoku",
 				timestamp:"Jan 2019 - Apr 2019 ",
+				techstack:"Java, Android, JUnit",
 				link:"",
-				image:project4Image
+				image: [require('../public/images/project4.png')]
 			},
 			{
 				title:"Dogs in Space",
 				description:"2D browser collector game",
 				timestamp:"Oct 2017 - Nov 2017",
+				techstack:"Javascript, HTML, CSS",
 				link:"",
-				image:project5Image
+				image: [require('../public/images/project5-2.JPG')]
 			},
 			{
 				title:"Gladius",
 				description:"2D side scroll shooter",
 				timestamp:"Jun 2017 - Aug 2017",
+				techstack:"Java, 2D Graphics",
 				link:"",
-				image:project6Image
+				image: [require('../public/images/project6.JPG')]
 			},
 		];
 	
@@ -65,16 +70,14 @@ class App extends Component {
 			<div className="App">
 				<Container fluid={true} className="god-container" style={{paddingLeft: 0, paddingRight: 0}}>
 					<Row className="god-row" style={{marginRight: 0, marginLeft: 0}}>
-						<Col xs="3" className="sidebar" style={{paddingLeft: 0, paddingRight: 0}}> 
+						<Col md="3" className="sidebar" style={{paddingLeft: 0, paddingRight: 0}}> 
 							<About></About>
-							<Links></Links>
 						</Col>
-						<Col className="not-sidebar">
+						<Col md="9" className="not-sidebar">
 							<ProjectSection projects={projects}/>
 						</Col>
 					</Row>
 				</Container>
-		
 			</div>
 		);
 	}

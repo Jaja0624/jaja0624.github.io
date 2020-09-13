@@ -17,15 +17,20 @@ export default class ProjectSection extends Component {
         return (
             <Container fluid={true} className="container-project">
                 <h2 className="project-section-title">Projects</h2>
-                    <Row className="project-row">
-                        <Col><ProjectBlock projectInfo={this.projects[0]}></ProjectBlock></Col>
-                        <Col><ProjectBlock projectInfo={this.projects[1]}></ProjectBlock></Col>
-                        <Col><ProjectBlock projectInfo={this.projects[2]}></ProjectBlock></Col>
+                    <Row className="project-row align-items-center">
+                        <Col xs="12" md="4"><ProjectBlock projectInfo={this.projects[0]}></ProjectBlock></Col>
+                        <Col xs="12" md="4"><ProjectBlock projectInfo={this.projects[1]}></ProjectBlock></Col>
+                        <Col xs="12" md="4"><ProjectBlock projectInfo={this.projects[2]}></ProjectBlock></Col>
                     </Row>
-                    <Row className="project-row">
-                        <Col><ProjectBlock projectInfo={this.projects[3]}></ProjectBlock></Col>
-                        <Col><ProjectBlock projectInfo={this.projects[4]}></ProjectBlock></Col>
-                        <Col><ProjectBlock projectInfo={this.projects[5]}></ProjectBlock></Col>
+                    <Row className="project-row align-items-center">
+                        <Col xs="12" md="4"><ProjectBlock projectInfo={this.projects[3]}></ProjectBlock></Col>
+                        <Col xs="12" md="4"><ProjectBlock projectInfo={this.projects[4]}></ProjectBlock></Col>
+                        <Col xs="12" md="4"><ProjectBlock projectInfo={this.projects[5]}></ProjectBlock></Col>
+                    </Row>
+                    <Row className="project-row align-items-center">
+                        <Col xs="12" md="4"><ProjectBlock projectInfo={this.projects[6]}></ProjectBlock></Col>
+                        <Col xs="12" md="4"><ProjectBlock></ProjectBlock></Col>
+                        <Col xs="12" md="4"><ProjectBlock></ProjectBlock></Col>
                     </Row>
             </Container>
         )
