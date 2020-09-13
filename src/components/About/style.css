@@ -45,26 +45,6 @@
     }
 }
 
-
-.links {
-    position: absolute;
-    left: 20;
-    bottom: 0;
-    padding-bottom: 15px;
-}
-
-.bur {
-    text-align: left;
-    margin-left: 8px;
-    margin-top: 15px;
-    font-size: 12px
-}
-
-.bur-link {
-    width: 1px;
-    height: 1px;
-}
-
 @media screen and (max-width: 767px) {
     .about {
         padding-top: 2.5em;
@@ -94,10 +74,14 @@
 
     .about-info {
         padding-top: 3.5em;
-        text-align:center;
+        text-align:center;    
+        padding-bottom: 5em;    
     }
 
-    .about-links {
-        padding-top: 10em;
-    }
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+    left:20;
 }
