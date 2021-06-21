@@ -39,10 +39,22 @@ export default class About extends Component {
                 </Button>
                 }
 
-                <div id="linksContainer">
+                <div id="linksContainer" style={{paddingTop: 25}}>
                     <Links></Links>
                 </div>
                 
+                <div >
+                    <p className="bur">Currently playing with<a className="bur-link" href="https://flutter.dev/" style={{fontWeight: 'bold'}}> Flutter</a></p>
+                    <p className="bur">and <a className="bur-link" href="https://developer.apple.com/augmented-reality/arkit/" style={{fontWeight: 'bold'}}> iOS ARKit</a></p>
+                    <p className="bur">Also curious about <a className="bur-link" href="https://github.com/keyvanakbary/learning-notes/blob/master/books/designing-data-intensive-applications.md" style={{fontWeight: 'bold'}}> Databases</a></p>
+                </div>
+
+                <div className="footer">
+                    <p className="bur">-- Built using <a className="bur-link" href="https://reactjs.org/">Reactjs</a></p>
+                    <p className="date">Sept 2020</p>
+                </div>
+
+
             </div>
         )
     }

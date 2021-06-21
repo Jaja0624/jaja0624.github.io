@@ -17,7 +17,7 @@ export default class ProjectSection extends Component {
         return (
             <Container fluid={true} className="container-project">
                 <h2 className="project-section-title">Projects</h2>
-                    <Row className="project-row align-items-center">
+                    <Row className="project-row">
                         <Col xs="12" md="4"><ProjectBlock projectInfo={this.projects[0]}></ProjectBlock></Col>
                         <Col xs="12" md="4"><ProjectBlock projectInfo={this.projects[1]}></ProjectBlock></Col>
                         <Col xs="12" md="4"><ProjectBlock projectInfo={this.projects[2]}></ProjectBlock></Col>

@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react'
 import './style.css'
-import tenor from '../../../public/images/tenor.gif'
+import me from '../../../public/images/me.png'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
@@ -40,7 +40,9 @@ export default class ProjectBlock extends Component {
                     </div>
                 
                 <div className="project-info">
-                    <h4 style={{paddingTop: 5, fontFamily:'Roboto Mono'}}>{this.project.title}</h4>
+                    <h4 style={{paddingTop: 5, fontFamily:'Roboto Mono'}}>{this.project.title}
+                    {this.project.link.length ? <a target="_blank" style={{fontSize: 15, paddingLeft: 15, fontWeight: 'bold'}} href={this.project.link}>Play Store</a> : null}
+                    </h4>
                     <h6 style={{fontFamily:'Roboto Mono'}}>{this.project.description}</h6>
                     <h6 style={{fontStyle:'italic', fontSize:13, color:'blue', fontFamily:'Roboto Mono'}}>{this.project.techstack}</h6>
                 </div>

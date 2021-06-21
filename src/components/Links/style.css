@@ -25,10 +25,7 @@
     border-color: aquamarine
 }
 
-.links-footer {
-    display:flex;
-    justify-content: space-between;
-}
+
 
 .bur {
     margin-left: 8px;
