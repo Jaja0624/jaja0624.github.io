@@ -20,7 +20,7 @@ class App extends Component {
 				description:"A very polished scheduled check in mobile application that me and my family use daily. Features -> Create groups, join groups using deep links, scheduling, real time UI updates, remote push notifications using Firebase Cloud Messaging, share images",
 				timestamp:"Jul 2020 - current",
 				techstack:"React Native, Javascript, Firebase, GCP Cloud Functions",
-				link:"https://play.google.com/store/apps/details?id=com.j.herald",
+				link:"https://play.google.com/store/apps/details?id=com.j.lia",
 				image: [require('../public/images/project7-0.jpg'), require('../public/images/project7-1.jpg'), require('../public/images/project7-2.jpg')]
 			},
 			{
